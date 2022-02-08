@@ -36,6 +36,12 @@ function UserSignup() {
     async function signUpUser() {
         // send "state" to localStorage in-memory database
         console.log(state)
+        let previousData = localStorage.getItem('data');
+        let parsedData = previousData && JSON.parse(previousData);
+        let newData = parsedData ? [...Object.entries(parsedData), state] : [state];
+
+        localStorage.setItem('data', JSON.stringify(newData))
+ 
     }
 
     const handleChange = (event: any) => {

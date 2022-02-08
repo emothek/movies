@@ -44,6 +44,7 @@ function UserSignup() {
         setState({ 
             ...state, 
             movie: event.target.value, 
+            // problem updating the sessions with mock data to display the second drop down !
             //sessions: options[event.target.value].sessions
         });
       };

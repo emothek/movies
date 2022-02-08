@@ -1,0 +1,64 @@
+ [
+        {
+            "title": "Wonder Woman",
+            "category": "Action",
+            "IMDB": 8.5,
+            "sessions": [
+              {
+                "date":"8/02/2022",
+                "time":"21:00"
+              },
+              {
+                "date":"9/02/2022",
+                "time":"5:30"
+              }
+            ]
+          },
+          {
+            "title": "Superman",
+            "category": "Action",
+            "IMDB": 8.5,
+            "sessions": [
+              {
+                "date":"8/02/2022",
+                "time":"1:00"
+              },
+              {
+                "date":"8/02/2022",
+                "time":"19:30"
+              }
+            ]
+          },
+          {
+            "title": "Forest Gump",
+            "category": "Action",
+            "IMDB": 8.5,
+            "sessions": [
+              {
+                "date":"9/02/2022",
+                "time":"9:00"
+              },
+              {
+                "date":"11/02/2022",
+                "time":"15:30"
+              }
+            ]
+          },
+          {
+            "title": "Idiocracy",
+            "category": "Comedy",
+            "IMDB": 8.5,
+            "sessions": [
+              {
+                "date":"9/02/2022",
+                "time":"1:00"
+              },
+              {
+                "date":"9/02/2022",
+                "time":"19:30"
+              }
+            ]
+          }
+      ]
+
+ 
